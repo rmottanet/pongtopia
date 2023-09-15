@@ -6,7 +6,7 @@ Welcome to Pongtopia, a repository that hosts various implementations of the cla
 ## Implemented Games
 
 - [AlonePong in Python](/python/README.md): Implementation of AlonePong in Python.
-- [AlonePong in MIT Scratch](/scratch-alone-pong): A fun version of the game made with MIT Scratch.
+
 
 
 ## How to Play
