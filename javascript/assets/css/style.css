@@ -1,0 +1,84 @@
+/* Estilos para a logo no cabeçalho */
+#header {
+    background-color: transparent;
+    color: Green;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .logo {
+    font-size: 128px;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center; 
+}
+
+#header h1 {
+	padding-left: 4rem;
+	font-family: 'VT323', monospace;
+	font-size: 96px;
+}
+
+/* Estilos para o conteúdo*/
+#content {
+    background-color: #212121;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0 5%;
+}
+
+/* Estilos para o canvas do jogo*/
+#gameCanvas {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    display: block;
+    align-items: center;
+}
+
+/* Estilos para o rodapé */
+#footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 32px;
+    color: Green;
+}
+
+#footer ul.icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Green;
+}
+
+#footer ul.icons li {
+    margin: 0 0.5rem;
+    color: Green;
+}
+
+/* Geral */
+
+a {
+    display: none;
+    text-decoration: none;
+}
+
+.label {
+    display: none;
+    text-decoration: none;
+}
+
+
+
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Shadows Into Light', cursive;

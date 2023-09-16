@@ -1,0 +1,91 @@
+/* Top */
+
+#header {
+    background-color: transparent;
+    color: Green;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .logo {
+    font-size: 10rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center; 
+}
+
+/* Content */
+
+#content {
+    background-color: #212121;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0 5%;
+}
+
+#description-container {
+    max-width: 30%;
+    padding-right: 4rem;
+}
+
+#description-container p {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 1.4rem;
+    text-align: right;
+    color: Green;
+}
+
+#description-container a {
+    display: inline;
+    color: Green;
+    text-decoration: underline;
+}
+
+#gameCanvas {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    display: block;
+    align-items: center;
+}
+
+/* Footer */
+
+#footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: Green;
+}
+
+#footer ul.icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Green;
+}
+
+#footer ul.icons li {
+    margin: 0 0.5rem;
+    color: Green;
+}
+
+/* General */
+
+a {
+    display: none;
+    text-decoration: none;
+}
+
+.label {
+    display: none;
+    text-decoration: none;
+}
