@@ -1,13 +1,15 @@
 # Pongtopia
 
-Welcome to Pongtopia, a repository that hosts various implementations of the classic Pong game with a unique twist: you are alone controlling a single paddle that will bounce the ball against the bottom and side walls. Each version of the game is written in a different programming language, such as Python, MIT Scratch, JavaScript, and Java. The goal of this project is to showcase my skills in various languages and create a diverse portfolio for job opportunities.
+Welcome to Pongtopia, a repository that hosts various implementations of the classic Pong game with a unique twist: you are alone controlling a single paddle that will bounce the ball against the bottom and side walls. Each version of the game is written in a different programming language, such as Python, MIT Scratch, JavaScript, and Java. The goal of this project is to study and analyze the behavior of different programming languages and enhance my skills.
 
 
 ## Implemented Games
 
 - [AlonePong in Python](/python/README.md): Implementation of AlonePong in Python.
-
-
+- [AlonePong in MIT Scratch](/scratch/README.md): A fun version of the game made with MIT Scratch.
+<!--
+- [AlonePong in JavaScript](/js-alone-pong): AlonePong game developed in JavaScript.
+-->
 
 ## How to Play
 
