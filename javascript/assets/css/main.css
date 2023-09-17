@@ -26,7 +26,6 @@ a {
 }
 
 #header .logo {
-    font-size: 10rem;
     margin-right: 1rem;
     display: flex;
     align-items: center; 
@@ -58,8 +57,6 @@ a {
 
 #description-container p {
     font-family: 'DotGothic16', sans-serif;
-    font-size: 1.4rem;
-    text-align: right;
     color: Green;
 }
 
@@ -74,7 +71,6 @@ a {
     margin: 2rem 0;
     padding: 0.5rem;
     text-align: center;
-    font-size: 2rem;
     color: Green;
 }
 
@@ -94,6 +90,10 @@ a {
 
 
 @media screen and (min-width: 768px) {
+	#header .logo {
+    font-size: 10rem;
+    }
+    
     #content {
 	    align-items: flex-start;
     }
@@ -104,19 +104,42 @@ a {
 	}
 
     #description-container {
-        flex-basis: 30%;
+        flex-basis: 40%;
     }
+    
+	#description-container p {
+	    font-size: 1.4rem;
+	    text-align: right;
+	}
+	
+	#footer {
+	    font-size: 2rem;
+	}
 
 }
 
 
 @media screen and (max-width: 767px) {
+	#header .logo {
+		font-size: 6rem;
+    }
+    
     #content {   
         flex-direction: column; 
     }
-
+	
     #description-container, #gameCanvas {
         flex-basis: 100%; 
     }
-    
+
+	#description-container p {
+		flex-basis: 100%;
+	    font-size: 1rem;
+	    text-align: left;
+	}   
+
+	#footer {
+	    font-size: 1.2rem;
+	}
+	
 }
