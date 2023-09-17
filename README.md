@@ -8,7 +8,8 @@ Welcome to Pongtopia, a repository that hosts various implementations of the cla
 - [Python](/python/README.md): Implementations in Python.
 - [MIT Scratch](/scratch/README.md): A fun version of the game made with MIT Scratch.
 - [JavaScript](/javascript/README.md): Games developed in JavaScript.
-
+- [C++](/cpp/README.md): C++ sandbox.
+- [Lua](/lua/README.md): Lua implementations.
 
 ## How to Play
 
