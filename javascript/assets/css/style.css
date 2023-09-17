@@ -1,15 +1,32 @@
-/* Estilos para a logo no cabeçalho */
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #131313;
+}
+
+a {
+    display: none;
+    text-decoration: none;
+}
+
+.label {
+    display: none;
+    text-decoration: none;
+}
+
 #header {
     background-color: transparent;
     color: Green;
-    padding: 4rem;
+    margin: 2rem 0;
+    padding: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 #header .logo {
-    font-size: 128px;
+    font-size: 10rem;
     margin-right: 1rem;
     display: flex;
     align-items: center; 
@@ -21,32 +38,56 @@
 	font-size: 96px;
 }
 
-/* Estilos para o conteúdo*/
 #content {
+	max-width: 100%;
+	height: auto;
     background-color: #212121;
-    flex-grow: 1;
     display: flex;
-    justify-content: center;
+    padding: 2rem;
+    flex-grow: 1;
     align-items: center;
-    height: 60vh;
-    margin: 0 5%;
+    justify-content: center;
 }
 
-/* Estilos para o canvas do jogo*/
-#gameCanvas {
+#canvasAlonePong {
     width: 400px;
     height: 500px;
     border: 2px solid black;
     display: block;
-    align-items: center;
+    margin: 0 auto;
 }
 
-/* Estilos para o rodapé */
+#canvasPong {
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+#description-container {
+	padding-right: 4rem;
+}
+
+#description-container p {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 1.4rem;
+    text-align: right;
+    color: Green;
+}
+
+#description-container a {
+    display: inline;
+    color: Green;
+    text-decoration: underline;
+}
+
 #footer {
     background-color: transparent;
-    text-align: center;
+    margin: 2rem 0;
     padding: 0.5rem;
-    font-size: 32px;
+    text-align: center;
+    font-size: 2rem;
     color: Green;
 }
 
@@ -64,21 +105,30 @@
     color: Green;
 }
 
-/* Geral */
 
-a {
-    display: none;
-    text-decoration: none;
+@media screen and (min-width: 768px) {
+    #content {
+	    align-items: flex-start; 
+    }
+
+	#canvasAlonePong {
+		flex-basis: 50%; 
+	}
+
+    #description-container {
+        flex-basis: 30%; 
+    }
+
 }
 
-.label {
-    display: none;
-    text-decoration: none;
+
+@media screen and (max-width: 767px) {
+    #content {   
+        flex-direction: column; 
+    }
+
+    #description-container, #gameCanvas {
+        flex-basis: 100%; 
+    }
+    
 }
-
-
-
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Lora', serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Shadows Into Light', cursive;

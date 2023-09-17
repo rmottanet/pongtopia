@@ -1,4 +1,4 @@
-const canvas = document.getElementById('gameCanvas');
+const canvas = document.getElementById('canvasAlonePong');
 const ctx = canvas.getContext('2d');
 
 // Configurações do jogo
