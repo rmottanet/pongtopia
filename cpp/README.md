@@ -4,25 +4,37 @@ Welcome to the C++ version of AlonePong in the Pongtopia project! In this implem
 
 ## How to Compile and Run
 
-To compile and run AlonePong in C++, follow these steps:
+To compile and run AlonePong and Pong in C++, follow these steps:
 
 1. Clone or download this repository to your local machine.
 2. Make sure you have g++ (GNU C++ compiler) and the SFML library installed on your system.
-3. Open a terminal or command prompt and navigate to the "cpp-alone-pong" folder.
-4. Compile the source code using the following command:
+3. Open a terminal or command prompt and navigate to the “cpp” folder.
+
+4. Compile the source code using the following command for AlonePong:
 
 ```bash
 g++ -o alone_pong alone_pong.cpp -lsfml-graphics -lsfml-window -lsfml-system
 ```
 
-5. After successful compilation, run the game with the following command:
-
+And for Pong:
 ```bash
-,/alone_pong
+g++ -o pong pong.cpp -lsfml-graphics -lsfml-window -lsfml-system
 ```
 
-That's it! You can now enjoy the game and test your skills in this solo Pong adventure.
-Use arrow keys to play.
+5. After successful compilation, run the game with the following command for AlonePong:
+
+```bash
+./alone_pong
+```
+
+And for Pong:
+```bash
+./pong
+```
+
+That’s it! You can now enjoy the game and test your skills in this solo Pong adventure. Use arrow keys to play.
+
+
 
 ## Technologies Used
 
