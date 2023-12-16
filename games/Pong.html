@@ -2,32 +2,30 @@
 <html>
 	<head>
 	    <meta charset="UTF-8">
-	    <title>Pongtopia</title>
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16" />
-	    <link rel="stylesheet" href="assets/css/main.css" />
+	    <title>Pong</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../assets/css/style.css" />    
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap" />
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 	</head>
 
 	<body>
+		
 		<header id="header">
 			<div class="logo">
 				<span class="fas fa-terminal"></span>
+				<h1>Pong</h1>
 			</div>
 		</header>
 		
-		<div id="content">		
-			<div id="description-container">		
-				<p>Use the arrow keys to play.</p>	
-				<p>This is <a href="https://github.com/rmottanet/pongtopia" target="_blank">Pongtopia</a>, my personal arena for enjoying the classic game Pong! Here, I delve deeply into its algorithm, exploring it in various languages. The reinvention of the game results in an authentic and invigorating gaming experience.</p>
-				<p>For enthusiasts of the old-school style, enjoy to the fullest. If you have felt a desire deep in your emotions to collaborate and create together, feel free to get in touch. Together, we can create something truly exceptional!</p>
-			</div>
+		<div id="content">
 			
 			<div>			
-				<canvas id="canvasAlonePong"></canvas>
-			</div>		
+				<canvas id="canvasPong"></canvas>
+			</div>
+			
 		</div>
 	
 		<footer id="footer">
@@ -41,8 +39,7 @@
 			</ul>
 		</footer>
 	
+	    <script src="../assets/js/pong.js"></script>
 	
-	    <script src="assets/js/alone_pong.js"></script>
-
 	</body>
 </html>
