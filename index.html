@@ -1,49 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 	    <meta charset="UTF-8">
 	    <title>Pongtopia</title>
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./assets/css/main.css" />
 	    <link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16" />
-	    <link rel="stylesheet" href="assets/css/main.css" />
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
 	</head>
 
 	<body>
+		<!-- Header -->
 		<header id="header">
 			<div class="logo">
 				<span class="fas fa-code"></span>
 			</div>
 		</header>
 		
+		<!-- Main -->
 		<div id="content">		
 			<div id="description-container">		
-				<p>Use the arrow keys to play.</p>	
-				<p>This is <a href="https://github.com/rmottanet/pongtopia" target="_blank">Pongtopia</a>, my personal arena for enjoying the classic game Pong! Here, I delve deeply into its algorithm, exploring it in various languages. The reinvention of the game results in an authentic and invigorating gaming experience.</p>
+				<p>This is <a href="https://github.com/rmottanet/pongtopia" target="_blank">Pongtopia</a>, my personal arena for enjoying the classic game Pong! Here, I delve deeply into its algorithm, exploring it in various languages. The reinvention of the game results in an authentic and invigorating gaming experience.</p>			
 				<p>For enthusiasts of the old-school style, enjoy to the fullest. If you have felt a desire deep in your emotions to collaborate and create together, feel free to get in touch. Together, we can create something truly exceptional!</p>
+				<p>Explore more implementations like <a href="games/AlonePong.html" target="_blank">AlonePong</a> and <a href="games/Pong.html" target="_blank">Pong</a> in the <a href="https://github.com/PongCraft" target="_blank">PongCraft</a> domain. Also, check out <a href="https://github.com/OldSchool78" target="_blank">OldSchool78</a> where I delve into other classic games. No need for redundant invites – just dive in and paddle through the gaming adventure.</p>
 			</div>
 			
-			<div>			
+			<div>
+				<p class="instr">Use the arrow keys to play.</p>	
 				<canvas id="canvasAlonePong"></canvas>
 			</div>		
 		</div>
-	
+		
+		<!-- Footer -->
 		<footer id="footer">
 			<ul class="icons">
 				<li><a href="https://rmottanet.github.io" class="fas fa-code" style="color: green;" target="_blank"><span class="label">GitPage</span></a></li>
 				<li><a href="https://github.com/rmottanet" class="fab fa-github" style="color: green;" target="_blank"><span class="label">GitHub</span></a></li>
 				<li><a href="https://gitlab.com/rmotta.net" class="fab fa-gitlab" style="color: green;" target="_blank"><span class="label">GitLab</span></a></li>
-				<li><a href="https://twitter.com/rmotta_" class="fab fa-twitter" style="color: green;" target="_blank"><span class="label">Twitter</span></a></li>
 				<li><a href="https://instagram.com/rmottanet" class="fab fa-instagram" style="color: green;" target="_blank"><span class="label">Instagram</span></a></li>
-				<li><a href="https://www.facebook.com/rmotta.info/" class="fab fa-facebook-f" style="color: green;" target="_blank"><span class="label">Facebook</span></a></li>
-				<li><a href="https://www.youtube.com/@rmottainfo" class="fab fa-youtube" style="color: green;" target="_blank"><span class="label">YouTube</span></a></li>
+				<li><a href="https://www.linkedin.com/in/rmottanet/" class="fab fa-linkedin" style="color: green;" target="_blank"><span class="label">YouTube</span></a></li>
 			</ul>
 		</footer>
 	
-	
 	    <script src="assets/js/alone_pong.js"></script>
-
 	</body>
 </html>
