@@ -1,0 +1,14 @@
+# Mirroring on Github
+
+stages:
+  - mirror
+
+mirror:
+  stage: mirror
+  script:
+    - export REPO_NAME=$(echo $CI_PROJECT_PATH | cut -d'/' -f2)
+    - git remote add github https://${GITHUB_TOKEN}@github.com/rmottanet/$REPO_NAME.git
+    - git checkout -b main
+    - git push --set-upstream github main
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request" && $CI_MERGE_REQUEST_EVENT_TYPE == "close"'
